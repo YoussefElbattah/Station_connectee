@@ -30,7 +30,7 @@ Il s’agit d’un système complet intégrant :
 
 ---
 
-## 🧩 Architecture du système  
+## Architecture du système  
 1. Une **carte STM32** collecte les données des capteurs via I2C et/ou SPI.    
 2. Une **deuxième carte STM32** reçoit ces données via la **liaison LoRa**.
 3. Les valeurs reçues sont affichées sur un **écran LCD 16×2**.
@@ -38,14 +38,14 @@ Il s’agit d’un système complet intégrant :
 
 ---
 
-## 🚀 Installation et configuration  
+## Installation et configuration  
 
-### 🔧 Prérequis  
+### Prérequis  
 - **STM32CubeIDE** ou tout autre IDE compatible  
 - Pilotes STM32 et bibliothèques **HAL** installées  
 - Capteurs et modules LoRa correctement câblés  
 
-### 🪜 Étapes  
+### Étapes  
 1. **Cloner le dépôt :**
    ```bash
    git clone https://github.com/YoussefElbattah/Station_connectee.git
